@@ -1,0 +1,44 @@
+.App{
+  display :felx;
+  justify-content: center;
+  align-items: center;
+  height:100vh;
+  margin:10px;
+}
+
+.calculator{
+  width:300px;
+}
+
+.display{
+  background-color: #eee;
+  padding :20px;
+  border-radius: 8px 8px 0 0;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1)
+
+}
+.input,.result{
+  font-size: 20px;
+  padding: 8px 0;
+}
+
+.buttons{
+  display:grid;
+  grid-template-columns: repeat(4,1fr);
+  gap:10px;
+  padding: 20px;
+  /* border: 1px solid black; */
+}
+
+button{
+  padding:15px;
+  font-size:20px;
+  border:none;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover{
+  background-color: #ddd;
+}
